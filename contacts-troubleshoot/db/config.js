@@ -2,7 +2,7 @@ require('dotenv').config();
 var util = require('util');
 
 // The following variables should be defined in the
-// secret resource associated with the database.
+// secret resource associated with the database..
 var db_user = process.env["database-user"];
 var db_pass = process.env["database-password"];
 var db_name = process.env["database-name"];
